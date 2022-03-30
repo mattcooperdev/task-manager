@@ -14,4 +14,8 @@
     //select init
     let selects = document.querySelectorAll('select');
     M.FormSelect.init(selects);
+
+    //collapsables init
+    let collapsibles = document.querySelectorAll('.collapsible');
+    M.Collapsible.init(collapsibles);
   });
